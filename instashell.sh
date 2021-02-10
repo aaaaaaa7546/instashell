@@ -213,4 +213,7 @@ case "$1" in --resume) resume ;; *)
 start
 bruteforcer
 esac
+cd instashell/
+chmod 775 instashell.sh
+chmod 775 install.sh
 
